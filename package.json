@@ -1,0 +1,11 @@
+{
+    "name": "notion-database-to-yaml-playground",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@notionhq/client": "2.2.13"
+    }
+}
