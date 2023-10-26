@@ -53,28 +53,6 @@ $ ./playground.sh
 ---
 {
   object: 'page',
-  id: 'a9d5bc54-aabb-4fb3-b6f2-6de943858453',
-  created_time: '2023-10-26T12:29:00.000Z',
-  last_edited_time: '2023-10-26T12:29:00.000Z',
-  created_by: { object: 'user', id: '4b4488c3-f4ff-4cf6-9b6e-39337ec0fa93' },
-  last_edited_by: { object: 'user', id: '4b4488c3-f4ff-4cf6-9b6e-39337ec0fa93' },
-  cover: null,
-  icon: null,
-  parent: {
-    type: 'database_id',
-    database_id: '61b0ae8c-ade8-4ef0-8870-ca24680fd605'
-  },
-  archived: false,
-  properties: {
-    Age: { id: 'Jc%7DI', type: 'number', number: null },
-    Name: { id: 'title', type: 'title', title: [] }
-  },
-  url: 'https://www.notion.so/a9d5bc54aabb4fb3b6f26de943858453',
-  public_url: null
-}
----
-{
-  object: 'page',
   id: 'e5d4f699-adad-4bc1-a7a1-ee9c1f22aa9b',
   created_time: '2023-10-26T12:29:00.000Z',
   last_edited_time: '2023-10-26T12:30:00.000Z',
