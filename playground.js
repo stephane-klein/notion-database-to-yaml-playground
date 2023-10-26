@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+import yaml from "js-yaml";
 import { Client } from "@notionhq/client";
 
 const notion = new Client({
@@ -17,9 +17,17 @@ let databaseResult = await notion.databases.query({
     ]
 });
 
+const outputData = {
+    "rows": []
+}
+
 for (const page of databaseResult.results) {
     if (page.properties.Name.title.length > 0) {
-        console.log("---");
-        console.dir(page, { depth: null });
+        outputData.rows.push({
+            "Name": page.properties.Name.title[0].plain_text,
+            "Age": page.properties.Age.number
+        });
     }
 }
+
+console.log(yaml.dump(outputData));

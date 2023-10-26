@@ -6,6 +6,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@notionhq/client": "2.2.13"
+        "@notionhq/client": "2.2.13",
+        "js-yaml": "4.1.0"
     }
 }
